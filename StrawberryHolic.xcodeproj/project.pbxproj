@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B918E215CD76A497768F9CC /* Pods_StrawberryHolicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89947CCABDB4804E64223806 /* Pods_StrawberryHolicTests.framework */; };
 		2C2808EC22EA9C73008A7CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2808DC22EA9C73008A7CC7 /* Assets.xcassets */; };
 		2C2808ED22EA9C73008A7CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2808DD22EA9C73008A7CC7 /* LaunchScreen.storyboard */; };
 		2C2808EE22EA9C73008A7CC7 /* CompositionRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2808E322EA9C73008A7CC7 /* CompositionRoot.swift */; };
 		2C2808EF22EA9C73008A7CC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2808E522EA9C73008A7CC7 /* ViewController.swift */; };
 		2C2808F022EA9C73008A7CC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2808E622EA9C73008A7CC7 /* AppDelegate.swift */; };
 		2C2808F122EA9C73008A7CC7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2808E722EA9C73008A7CC7 /* main.swift */; };
-		2C2808F222EA9C73008A7CC7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C2808EB22EA9C73008A7CC7 /* Info.plist */; };
 		2CF6A5D522EA934E00DCC509 /* StrawberryHolicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF6A5D422EA934E00DCC509 /* StrawberryHolicTests.swift */; };
 		2CF6A5E022EA934E00DCC509 /* StrawberryHolicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF6A5DF22EA934E00DCC509 /* StrawberryHolicUITests.swift */; };
+		303C549D19F9AD3D26E205EE /* Pods_StrawberryHolic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E78BABFE2BE5B2E9C2C6B6 /* Pods_StrawberryHolic.framework */; };
+		ECDB4027DF3D6C2AC87B9536 /* Pods_StrawberryHolicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D06645BB84FCFDE7BF91BD5 /* Pods_StrawberryHolicUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E3BE74298F5A70C09088956 /* Pods-StrawberryHolic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrawberryHolic.release.xcconfig"; path = "Target Support Files/Pods-StrawberryHolic/Pods-StrawberryHolic.release.xcconfig"; sourceTree = "<group>"; };
 		2C2808DC22EA9C73008A7CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C2808DE22EA9C73008A7CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C2808E322EA9C73008A7CC7 /* CompositionRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositionRoot.swift; sourceTree = "<group>"; };
@@ -50,6 +53,14 @@
 		2CF6A5DB22EA934E00DCC509 /* StrawberryHolicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrawberryHolicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CF6A5DF22EA934E00DCC509 /* StrawberryHolicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawberryHolicUITests.swift; sourceTree = "<group>"; };
 		2CF6A5E122EA934E00DCC509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361BCCE48006976FBF1C986F /* Pods-StrawberryHolicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrawberryHolicTests.debug.xcconfig"; path = "Target Support Files/Pods-StrawberryHolicTests/Pods-StrawberryHolicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		89947CCABDB4804E64223806 /* Pods_StrawberryHolicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrawberryHolicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D06645BB84FCFDE7BF91BD5 /* Pods_StrawberryHolicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrawberryHolicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AA7457964DBD04323390E3 /* Pods-StrawberryHolicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrawberryHolicTests.release.xcconfig"; path = "Target Support Files/Pods-StrawberryHolicTests/Pods-StrawberryHolicTests.release.xcconfig"; sourceTree = "<group>"; };
+		A64E40834DAB6DB31C2E2B9C /* Pods-StrawberryHolic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrawberryHolic.debug.xcconfig"; path = "Target Support Files/Pods-StrawberryHolic/Pods-StrawberryHolic.debug.xcconfig"; sourceTree = "<group>"; };
+		B4E78BABFE2BE5B2E9C2C6B6 /* Pods_StrawberryHolic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrawberryHolic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08AC08F5785E081CF4725E8 /* Pods-StrawberryHolicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrawberryHolicUITests.release.xcconfig"; path = "Target Support Files/Pods-StrawberryHolicUITests/Pods-StrawberryHolicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E30B7A2E3C665D9436171D8F /* Pods-StrawberryHolicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrawberryHolicUITests.debug.xcconfig"; path = "Target Support Files/Pods-StrawberryHolicUITests/Pods-StrawberryHolicUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303C549D19F9AD3D26E205EE /* Pods_StrawberryHolic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B918E215CD76A497768F9CC /* Pods_StrawberryHolicTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECDB4027DF3D6C2AC87B9536 /* Pods_StrawberryHolicUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +174,8 @@
 				2CF6A5D322EA934E00DCC509 /* StrawberryHolicTests */,
 				2CF6A5DE22EA934E00DCC509 /* StrawberryHolicUITests */,
 				2CF6A5BD22EA934C00DCC509 /* Products */,
+				84775A595815994B8EE20FF7 /* Pods */,
+				B9D122B7969F0EC613C396B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -201,6 +217,29 @@
 			path = StrawberryHolicUITests;
 			sourceTree = "<group>";
 		};
+		84775A595815994B8EE20FF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A64E40834DAB6DB31C2E2B9C /* Pods-StrawberryHolic.debug.xcconfig */,
+				1E3BE74298F5A70C09088956 /* Pods-StrawberryHolic.release.xcconfig */,
+				361BCCE48006976FBF1C986F /* Pods-StrawberryHolicTests.debug.xcconfig */,
+				A4AA7457964DBD04323390E3 /* Pods-StrawberryHolicTests.release.xcconfig */,
+				E30B7A2E3C665D9436171D8F /* Pods-StrawberryHolicUITests.debug.xcconfig */,
+				D08AC08F5785E081CF4725E8 /* Pods-StrawberryHolicUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B9D122B7969F0EC613C396B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4E78BABFE2BE5B2E9C2C6B6 /* Pods_StrawberryHolic.framework */,
+				89947CCABDB4804E64223806 /* Pods_StrawberryHolicTests.framework */,
+				8D06645BB84FCFDE7BF91BD5 /* Pods_StrawberryHolicUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -208,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CF6A5E422EA934E00DCC509 /* Build configuration list for PBXNativeTarget "StrawberryHolic" */;
 			buildPhases = (
+				96D488C9FD16E6F764FBBB50 /* [CP] Check Pods Manifest.lock */,
 				2CF6A5B822EA934C00DCC509 /* Sources */,
 				2CF6A5B922EA934C00DCC509 /* Frameworks */,
 				2CF6A5BA22EA934C00DCC509 /* Resources */,
@@ -225,6 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CF6A5E722EA934E00DCC509 /* Build configuration list for PBXNativeTarget "StrawberryHolicTests" */;
 			buildPhases = (
+				7AC529222CDB33482BC6A637 /* [CP] Check Pods Manifest.lock */,
 				2CF6A5CC22EA934D00DCC509 /* Sources */,
 				2CF6A5CD22EA934D00DCC509 /* Frameworks */,
 				2CF6A5CE22EA934D00DCC509 /* Resources */,
@@ -243,6 +284,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CF6A5EA22EA934E00DCC509 /* Build configuration list for PBXNativeTarget "StrawberryHolicUITests" */;
 			buildPhases = (
+				1745F99EFA94A66F69F9EB8D /* [CP] Check Pods Manifest.lock */,
 				2CF6A5D722EA934E00DCC509 /* Sources */,
 				2CF6A5D822EA934E00DCC509 /* Frameworks */,
 				2CF6A5D922EA934E00DCC509 /* Resources */,
@@ -304,7 +346,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C2808F222EA9C73008A7CC7 /* Info.plist in Resources */,
 				2C2808EC22EA9C73008A7CC7 /* Assets.xcassets in Resources */,
 				2C2808ED22EA9C73008A7CC7 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -325,6 +366,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1745F99EFA94A66F69F9EB8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StrawberryHolicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AC529222CDB33482BC6A637 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StrawberryHolicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96D488C9FD16E6F764FBBB50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StrawberryHolic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2CF6A5B822EA934C00DCC509 /* Sources */ = {
@@ -499,16 +609,20 @@
 		};
 		2CF6A5E522EA934E00DCC509 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64E40834DAB6DB31C2E2B9C /* Pods-StrawberryHolic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = StrawberryHolic/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/StrawberryHolic/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.studiofourq.StrawberryHolic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -516,16 +630,20 @@
 		};
 		2CF6A5E622EA934E00DCC509 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3BE74298F5A70C09088956 /* Pods-StrawberryHolic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = StrawberryHolic/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/StrawberryHolic/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.studiofourq.StrawberryHolic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -533,6 +651,7 @@
 		};
 		2CF6A5E822EA934E00DCC509 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 361BCCE48006976FBF1C986F /* Pods-StrawberryHolicTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -553,6 +672,7 @@
 		};
 		2CF6A5E922EA934E00DCC509 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AA7457964DBD04323390E3 /* Pods-StrawberryHolicTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -573,6 +693,7 @@
 		};
 		2CF6A5EB22EA934E00DCC509 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E30B7A2E3C665D9436171D8F /* Pods-StrawberryHolicUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -592,6 +713,7 @@
 		};
 		2CF6A5EC22EA934E00DCC509 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D08AC08F5785E081CF4725E8 /* Pods-StrawberryHolicUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
