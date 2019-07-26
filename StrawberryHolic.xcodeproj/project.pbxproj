@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B918E215CD76A497768F9CC /* Pods_StrawberryHolicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89947CCABDB4804E64223806 /* Pods_StrawberryHolicTests.framework */; };
+		2C2808EC22EA9C73008A7CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2808DC22EA9C73008A7CC7 /* Assets.xcassets */; };
+		2C2808ED22EA9C73008A7CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2808DD22EA9C73008A7CC7 /* LaunchScreen.storyboard */; };
+		2C2808EE22EA9C73008A7CC7 /* CompositionRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2808E322EA9C73008A7CC7 /* CompositionRoot.swift */; };
+		2C2808EF22EA9C73008A7CC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2808E522EA9C73008A7CC7 /* ViewController.swift */; };
+		2C2808F022EA9C73008A7CC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2808E622EA9C73008A7CC7 /* AppDelegate.swift */; };
+		2C2808F122EA9C73008A7CC7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2808E722EA9C73008A7CC7 /* main.swift */; };
+		2CF6A5D522EA934E00DCC509 /* StrawberryHolicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF6A5D422EA934E00DCC509 /* StrawberryHolicTests.swift */; };
+		2CF6A5E022EA934E00DCC509 /* StrawberryHolicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF6A5DF22EA934E00DCC509 /* StrawberryHolicUITests.swift */; };
+		303C549D19F9AD3D26E205EE /* Pods_StrawberryHolic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E78BABFE2BE5B2E9C2C6B6 /* Pods_StrawberryHolic.framework */; };
+		ECDB4027DF3D6C2AC87B9536 /* Pods_StrawberryHolicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D06645BB84FCFDE7BF91BD5 /* Pods_StrawberryHolicUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CF6A5D122EA934D00DCC509 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CF6A5B422EA934C00DCC509 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CF6A5BB22EA934C00DCC509;
+			remoteInfo = StrawberryHolic;
+		};
+		2CF6A5DC22EA934E00DCC509 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CF6A5B422EA934C00DCC509 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CF6A5BB22EA934C00DCC509;
+			remoteInfo = StrawberryHolic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E3BE74298F5A70C09088956 /* Pods-StrawberryHolic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrawberryHolic.release.xcconfig"; path = "Target Support Files/Pods-StrawberryHolic/Pods-StrawberryHolic.release.xcconfig"; sourceTree = "<group>"; };
+		2C2808DC22EA9C73008A7CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C2808DE22EA9C73008A7CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C2808E322EA9C73008A7CC7 /* CompositionRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositionRoot.swift; sourceTree = "<group>"; };
+		2C2808E522EA9C73008A7CC7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C2808E622EA9C73008A7CC7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C2808E722EA9C73008A7CC7 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2C2808EB22EA9C73008A7CC7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF6A5BC22EA934C00DCC509 /* StrawberryHolic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrawberryHolic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF6A5D022EA934D00DCC509 /* StrawberryHolicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrawberryHolicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF6A5D422EA934E00DCC509 /* StrawberryHolicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawberryHolicTests.swift; sourceTree = "<group>"; };
+		2CF6A5D622EA934E00DCC509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF6A5DB22EA934E00DCC509 /* StrawberryHolicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrawberryHolicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF6A5DF22EA934E00DCC509 /* StrawberryHolicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawberryHolicUITests.swift; sourceTree = "<group>"; };
+		2CF6A5E122EA934E00DCC509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361BCCE48006976FBF1C986F /* Pods-StrawberryHolicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrawberryHolicTests.debug.xcconfig"; path = "Target Support Files/Pods-StrawberryHolicTests/Pods-StrawberryHolicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		89947CCABDB4804E64223806 /* Pods_StrawberryHolicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrawberryHolicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D06645BB84FCFDE7BF91BD5 /* Pods_StrawberryHolicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrawberryHolicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AA7457964DBD04323390E3 /* Pods-StrawberryHolicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrawberryHolicTests.release.xcconfig"; path = "Target Support Files/Pods-StrawberryHolicTests/Pods-StrawberryHolicTests.release.xcconfig"; sourceTree = "<group>"; };
+		A64E40834DAB6DB31C2E2B9C /* Pods-StrawberryHolic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrawberryHolic.debug.xcconfig"; path = "Target Support Files/Pods-StrawberryHolic/Pods-StrawberryHolic.debug.xcconfig"; sourceTree = "<group>"; };
+		B4E78BABFE2BE5B2E9C2C6B6 /* Pods_StrawberryHolic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrawberryHolic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08AC08F5785E081CF4725E8 /* Pods-StrawberryHolicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrawberryHolicUITests.release.xcconfig"; path = "Target Support Files/Pods-StrawberryHolicUITests/Pods-StrawberryHolicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E30B7A2E3C665D9436171D8F /* Pods-StrawberryHolicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrawberryHolicUITests.debug.xcconfig"; path = "Target Support Files/Pods-StrawberryHolicUITests/Pods-StrawberryHolicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CF6A5B922EA934C00DCC509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303C549D19F9AD3D26E205EE /* Pods_StrawberryHolic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF6A5CD22EA934D00DCC509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B918E215CD76A497768F9CC /* Pods_StrawberryHolicTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF6A5D822EA934E00DCC509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDB4027DF3D6C2AC87B9536 /* Pods_StrawberryHolicUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C2808DB22EA9C73008A7CC7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C2808DC22EA9C73008A7CC7 /* Assets.xcassets */,
+				2C2808DD22EA9C73008A7CC7 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2C2808DF22EA9C73008A7CC7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2C2808E722EA9C73008A7CC7 /* main.swift */,
+				2C2808E622EA9C73008A7CC7 /* AppDelegate.swift */,
+				2C2808E322EA9C73008A7CC7 /* CompositionRoot.swift */,
+				2C2808E022EA9C73008A7CC7 /* Sections */,
+				2C2808E122EA9C73008A7CC7 /* Networking */,
+				2C2808E222EA9C73008A7CC7 /* Utils */,
+				2C2808E422EA9C73008A7CC7 /* ViewControllers */,
+				2C2808E822EA9C73008A7CC7 /* Views */,
+				2C2808E922EA9C73008A7CC7 /* Rx */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2C2808E022EA9C73008A7CC7 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		2C2808E122EA9C73008A7CC7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2C2808E222EA9C73008A7CC7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2C2808E422EA9C73008A7CC7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C2808E522EA9C73008A7CC7 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2C2808E822EA9C73008A7CC7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C2808E922EA9C73008A7CC7 /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		2C2808EA22EA9C73008A7CC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C2808EB22EA9C73008A7CC7 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CF6A5B322EA934C00DCC509 = {
+			isa = PBXGroup;
+			children = (
+				2CF6A5BE22EA934C00DCC509 /* StrawberryHolic */,
+				2CF6A5D322EA934E00DCC509 /* StrawberryHolicTests */,
+				2CF6A5DE22EA934E00DCC509 /* StrawberryHolicUITests */,
+				2CF6A5BD22EA934C00DCC509 /* Products */,
+				84775A595815994B8EE20FF7 /* Pods */,
+				B9D122B7969F0EC613C396B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2CF6A5BD22EA934C00DCC509 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CF6A5BC22EA934C00DCC509 /* StrawberryHolic.app */,
+				2CF6A5D022EA934D00DCC509 /* StrawberryHolicTests.xctest */,
+				2CF6A5DB22EA934E00DCC509 /* StrawberryHolicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CF6A5BE22EA934C00DCC509 /* StrawberryHolic */ = {
+			isa = PBXGroup;
+			children = (
+				2C2808DF22EA9C73008A7CC7 /* Sources */,
+				2C2808DB22EA9C73008A7CC7 /* Resources */,
+				2C2808EA22EA9C73008A7CC7 /* Supporting Files */,
+			);
+			path = StrawberryHolic;
+			sourceTree = "<group>";
+		};
+		2CF6A5D322EA934E00DCC509 /* StrawberryHolicTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CF6A5D422EA934E00DCC509 /* StrawberryHolicTests.swift */,
+				2CF6A5D622EA934E00DCC509 /* Info.plist */,
+			);
+			path = StrawberryHolicTests;
+			sourceTree = "<group>";
+		};
+		2CF6A5DE22EA934E00DCC509 /* StrawberryHolicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CF6A5DF22EA934E00DCC509 /* StrawberryHolicUITests.swift */,
+				2CF6A5E122EA934E00DCC509 /* Info.plist */,
+			);
+			path = StrawberryHolicUITests;
+			sourceTree = "<group>";
+		};
+		84775A595815994B8EE20FF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A64E40834DAB6DB31C2E2B9C /* Pods-StrawberryHolic.debug.xcconfig */,
+				1E3BE74298F5A70C09088956 /* Pods-StrawberryHolic.release.xcconfig */,
+				361BCCE48006976FBF1C986F /* Pods-StrawberryHolicTests.debug.xcconfig */,
+				A4AA7457964DBD04323390E3 /* Pods-StrawberryHolicTests.release.xcconfig */,
+				E30B7A2E3C665D9436171D8F /* Pods-StrawberryHolicUITests.debug.xcconfig */,
+				D08AC08F5785E081CF4725E8 /* Pods-StrawberryHolicUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B9D122B7969F0EC613C396B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4E78BABFE2BE5B2E9C2C6B6 /* Pods_StrawberryHolic.framework */,
+				89947CCABDB4804E64223806 /* Pods_StrawberryHolicTests.framework */,
+				8D06645BB84FCFDE7BF91BD5 /* Pods_StrawberryHolicUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CF6A5BB22EA934C00DCC509 /* StrawberryHolic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF6A5E422EA934E00DCC509 /* Build configuration list for PBXNativeTarget "StrawberryHolic" */;
+			buildPhases = (
+				96D488C9FD16E6F764FBBB50 /* [CP] Check Pods Manifest.lock */,
+				2CF6A5B822EA934C00DCC509 /* Sources */,
+				2CF6A5B922EA934C00DCC509 /* Frameworks */,
+				2CF6A5BA22EA934C00DCC509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrawberryHolic;
+			productName = StrawberryHolic;
+			productReference = 2CF6A5BC22EA934C00DCC509 /* StrawberryHolic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CF6A5CF22EA934D00DCC509 /* StrawberryHolicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF6A5E722EA934E00DCC509 /* Build configuration list for PBXNativeTarget "StrawberryHolicTests" */;
+			buildPhases = (
+				7AC529222CDB33482BC6A637 /* [CP] Check Pods Manifest.lock */,
+				2CF6A5CC22EA934D00DCC509 /* Sources */,
+				2CF6A5CD22EA934D00DCC509 /* Frameworks */,
+				2CF6A5CE22EA934D00DCC509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CF6A5D222EA934D00DCC509 /* PBXTargetDependency */,
+			);
+			name = StrawberryHolicTests;
+			productName = StrawberryHolicTests;
+			productReference = 2CF6A5D022EA934D00DCC509 /* StrawberryHolicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CF6A5DA22EA934E00DCC509 /* StrawberryHolicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF6A5EA22EA934E00DCC509 /* Build configuration list for PBXNativeTarget "StrawberryHolicUITests" */;
+			buildPhases = (
+				1745F99EFA94A66F69F9EB8D /* [CP] Check Pods Manifest.lock */,
+				2CF6A5D722EA934E00DCC509 /* Sources */,
+				2CF6A5D822EA934E00DCC509 /* Frameworks */,
+				2CF6A5D922EA934E00DCC509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CF6A5DD22EA934E00DCC509 /* PBXTargetDependency */,
+			);
+			name = StrawberryHolicUITests;
+			productName = StrawberryHolicUITests;
+			productReference = 2CF6A5DB22EA934E00DCC509 /* StrawberryHolicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CF6A5B422EA934C00DCC509 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				TargetAttributes = {
+					2CF6A5BB22EA934C00DCC509 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					2CF6A5CF22EA934D00DCC509 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 2CF6A5BB22EA934C00DCC509;
+					};
+					2CF6A5DA22EA934E00DCC509 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 2CF6A5BB22EA934C00DCC509;
+					};
+				};
+			};
+			buildConfigurationList = 2CF6A5B722EA934C00DCC509 /* Build configuration list for PBXProject "StrawberryHolic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CF6A5B322EA934C00DCC509;
+			productRefGroup = 2CF6A5BD22EA934C00DCC509 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CF6A5BB22EA934C00DCC509 /* StrawberryHolic */,
+				2CF6A5CF22EA934D00DCC509 /* StrawberryHolicTests */,
+				2CF6A5DA22EA934E00DCC509 /* StrawberryHolicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CF6A5BA22EA934C00DCC509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2808EC22EA9C73008A7CC7 /* Assets.xcassets in Resources */,
+				2C2808ED22EA9C73008A7CC7 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF6A5CE22EA934D00DCC509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF6A5D922EA934E00DCC509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1745F99EFA94A66F69F9EB8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StrawberryHolicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AC529222CDB33482BC6A637 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StrawberryHolicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96D488C9FD16E6F764FBBB50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StrawberryHolic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CF6A5B822EA934C00DCC509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2808EE22EA9C73008A7CC7 /* CompositionRoot.swift in Sources */,
+				2C2808F122EA9C73008A7CC7 /* main.swift in Sources */,
+				2C2808EF22EA9C73008A7CC7 /* ViewController.swift in Sources */,
+				2C2808F022EA9C73008A7CC7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF6A5CC22EA934D00DCC509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF6A5D522EA934E00DCC509 /* StrawberryHolicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF6A5D722EA934E00DCC509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF6A5E022EA934E00DCC509 /* StrawberryHolicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CF6A5D222EA934D00DCC509 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CF6A5BB22EA934C00DCC509 /* StrawberryHolic */;
+			targetProxy = 2CF6A5D122EA934D00DCC509 /* PBXContainerItemProxy */;
+		};
+		2CF6A5DD22EA934E00DCC509 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CF6A5BB22EA934C00DCC509 /* StrawberryHolic */;
+			targetProxy = 2CF6A5DC22EA934E00DCC509 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C2808DD22EA9C73008A7CC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C2808DE22EA9C73008A7CC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CF6A5E222EA934E00DCC509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CF6A5E322EA934E00DCC509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CF6A5E522EA934E00DCC509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64E40834DAB6DB31C2E2B9C /* Pods-StrawberryHolic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/StrawberryHolic/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studiofourq.StrawberryHolic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CF6A5E622EA934E00DCC509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3BE74298F5A70C09088956 /* Pods-StrawberryHolic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/StrawberryHolic/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studiofourq.StrawberryHolic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2CF6A5E822EA934E00DCC509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 361BCCE48006976FBF1C986F /* Pods-StrawberryHolicTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StrawberryHolicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studiofourq.StrawberryHolicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StrawberryHolic.app/StrawberryHolic";
+			};
+			name = Debug;
+		};
+		2CF6A5E922EA934E00DCC509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AA7457964DBD04323390E3 /* Pods-StrawberryHolicTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StrawberryHolicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studiofourq.StrawberryHolicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StrawberryHolic.app/StrawberryHolic";
+			};
+			name = Release;
+		};
+		2CF6A5EB22EA934E00DCC509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E30B7A2E3C665D9436171D8F /* Pods-StrawberryHolicUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StrawberryHolicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studiofourq.StrawberryHolicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StrawberryHolic;
+			};
+			name = Debug;
+		};
+		2CF6A5EC22EA934E00DCC509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D08AC08F5785E081CF4725E8 /* Pods-StrawberryHolicUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StrawberryHolicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studiofourq.StrawberryHolicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StrawberryHolic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CF6A5B722EA934C00DCC509 /* Build configuration list for PBXProject "StrawberryHolic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF6A5E222EA934E00DCC509 /* Debug */,
+				2CF6A5E322EA934E00DCC509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CF6A5E422EA934E00DCC509 /* Build configuration list for PBXNativeTarget "StrawberryHolic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF6A5E522EA934E00DCC509 /* Debug */,
+				2CF6A5E622EA934E00DCC509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CF6A5E722EA934E00DCC509 /* Build configuration list for PBXNativeTarget "StrawberryHolicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF6A5E822EA934E00DCC509 /* Debug */,
+				2CF6A5E922EA934E00DCC509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CF6A5EA22EA934E00DCC509 /* Build configuration list for PBXNativeTarget "StrawberryHolicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF6A5EB22EA934E00DCC509 /* Debug */,
+				2CF6A5EC22EA934E00DCC509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CF6A5B422EA934C00DCC509 /* Project object */;
+}

@@ -152,22 +152,13 @@ otherResources/
 
 ## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
 
-### Xcode Patch ###
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcworkspace/contents.xcworkspacedata
-/*.gcno
-**/xcshareddata/WorkspaceSettings.xcsettings
 
-<<<<<<< Updated upstream
+
 # End of https://www.gitignore.io/api/swift
 *.zip
 *.cer
 *.mobileprovision
 .gitignore_backup
-=======
-# End of https://www.gitignore.io/api/xcode,swift,fastlane,cocoapods,objective-c
-.gitignore_backup
+
+
 Pods
->>>>>>> Stashed changes
